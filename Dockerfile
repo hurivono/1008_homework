@@ -1,5 +1,6 @@
 FROM python:3.8-slim
 
+RUN apt-get update && apt-get install -y curl
 # set the working directory in the container to /app
 WORKDIR /app
 
