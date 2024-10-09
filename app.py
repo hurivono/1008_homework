@@ -12,4 +12,4 @@ def index():
     return f'Pod Name: {pod_name}<br>Node Name: {node_name}<br>Pod Namespace: {pod_namespace}'
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=8080, debug=True)
