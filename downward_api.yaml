@@ -5,8 +5,8 @@ metadata:
 spec:
   containers:
   - name: main
-    image: busybox
-    command: ["sleep", "99999"]
+    image: ghcr.io/hurivono/1008_homework:v2
+    # command: ["sleep", "99999"]
     resources:
       requests:
         cpu: 15m
